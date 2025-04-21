@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #ff4e42;
+  --primary-light: #ffb3ac;
+  --text: #1f1f1f;
+  --bg: #fefefe;
+  --gray: #777;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -18,7 +26,7 @@ body {
 }
 
 .hero {
-  background: #007acc;
+  background: var(--primary);
   color: #fff;
   text-align: center;
   padding: 100px 20px;
