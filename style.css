@@ -136,3 +136,24 @@ body.dark .footer {
   background: #111;
   color: #aaa;
 }
+
+/* What I Did */
+
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about li {
+  margin-bottom: 10px;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.about li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
